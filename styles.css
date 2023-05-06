@@ -39,6 +39,7 @@ div {
   box-shadow: 5px 8px 12px rgba(55, 54, 54, 0.651);
   color: #ffff;
   font-size: 19px;
+  cursor:pointer;
 }
 i {
   color: white;
