@@ -35,7 +35,7 @@ div {
   padding: 15px 35px;
   border: none;
   border-radius: 30px;
-  background: #00dbf8;
+  background-image: linear-gradient( to right top, #9E68BB, #9555E4, #22C3C1 );
   box-shadow: 5px 8px 12px rgba(55, 54, 54, 0.651);
   color: #ffff;
   font-size: 19px;
