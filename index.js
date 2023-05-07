@@ -10,6 +10,7 @@ function colorChanger(){
 }
 
 function hexcodeGenerator(){
+    document.getElementById("copy").textContent = "Copy";
     var arr = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"];
     var hexcode = "";
     for(var i = 0; i < 6; i++){
@@ -17,4 +18,10 @@ function hexcodeGenerator(){
         hexcode += arr[r];
         }
     return hexcode;
+}
+
+function copy(){
+    var copytext = document.querySelectorAll(".content p")[1];
+    navigator.clipboard.writeText(copytext.textContent);
+    document.getElementById("copy").textContent = "Copied";
 }
